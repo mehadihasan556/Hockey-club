@@ -9,8 +9,21 @@
     
  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/dcee87fef2.js" crossorigin="anonymous"></script>
+<style>
+.font-manrope {
+  font-family: "Manrope", sans-serif;}
+
+
+</style>
 </head>
 <body>
 <header>
@@ -275,68 +288,7 @@
 <p class="text-sm text-center mt-5">Questions to ask clients: Be proactive and take action. You won’t know if you don’t ask. Conduct a client interview during specific points in the buyer’s journey to get valuable insight into where your customer’s heads are at. Send a short and sweet email that gets straight to the point.
 </p>
 
-<!-- <div>
-<img src="Images/11.png">
 
-</div>
-<div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" checked="checked" /> 
-  <div class="collapse-title text-xl font-medium">
-   Our Equipments
-  </div>
-  <div class="collapse-content"> 
-    <p>People often make mistakes while using the word Equipment in a sentence. They use Equipment or Equipments frequently. Contents show.</p>
-  </div>
-</div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
-  Hockey Training
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
- Private Lessons
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-  
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
- Ski Touring
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-  
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
-   Bookings
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div class="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div class="collapse-title text-xl font-medium">
-Pricings
-  </div>
-  <div class="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-</div>   -->
 
 <div class="flex flex-col sm:flex-row gap-8 mt-5">
   <div class="w-full sm:w-1/2">
@@ -410,6 +362,78 @@ Pricings
 
 <!-- get in touch section -->
 
+<h2 class="text-bold text-3xl text-center mt-5">Get in Touch</h2>
+<p class="text-sm text-center">In practice, there is little, if any, difference between the two. Both are acceptable for business use. However, getting in touch with can mean establishing a relationship, while contacting is strictly</p>
+
+<div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+  
+ 
+<div class="flex flex-col space-y-4 gap-5">
+<div class="card w-96 bg-lime-100 shadow-xl">
+  <div class="card-body flex-col justify-center align-center">
+    <img src="Images/Group 1171275317.png" width="32"height="32">
+    <p>Telephone</p>
+    <h2 class="card-title"> 
+      (+62) 123-321-543</h2>
+ </div>
+   
+  </div>
+</div>
+<div class="card w-96 bg-rose-100 shadow-xl">
+  <div class="card-body flex-col justify-center align-center">
+    <img src="Images/Group 1171275318.png" width="32"height="32">
+    <p>Email</p>
+    <h2 class="card-title">  
+      hockeys@support.com</h2>
+ </div>
+   
+  </div>
+</div>
+<div class="card w-96 bg-blue-100 shadow-xl">
+  <div class="card-body flex-col justify-center align-center">
+    <img src="Images/Group 1171275321.png" width="32"height="32">
+    <p> Location : </p>
+    <h2 class="card-title"> 
+     
+152/1 Mohakhali Wireless Gate</h2>
+ </div>
+   
+  </div>
+</div>
+
+</div>
+
+
+<div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <label class="input input-bordered flex items-center gap-2">
+    Name
+    <input type="text" class="grow" placeholder=""/>
+  </label>
+  <label class="input input-bordered flex items-center gap-2">
+    Email
+    <input type="text" class="grow" placeholder="" />
+  </label>
+  <label class="input input-bordered flex items-center gap-2">
+    Subject
+    <input type="text" class="grow" placeholder="" />
+  </label>
+  <label class="input input-bordered flex items-center gap-2">
+    Phone Number
+    <input type="text" class="grow" placeholder="" />
+  </label>
+</div>
+
+<h5 class="text-semibold text-center mt-3">Your Message</h5>
+
+<textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+
+</div>
+
+
+
+
+
 <!-- social media section -->
 <section class="bg-gray-200 py-8 mt-5 rounded-md">
   <h5 class="text-semibold text-center text-3xl mt-5">Social Media</h5>
@@ -440,10 +464,6 @@ Pricings
       <p>(+62) 123-321-543</p>
     </div>
       </nav>
-
-
-
-
 
     <nav>
       <h6 class="footer-title">Company</h6> 
